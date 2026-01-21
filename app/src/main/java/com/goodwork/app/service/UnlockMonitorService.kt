@@ -9,6 +9,7 @@ import android.os.IBinder
 import android.os.Looper
 import android.util.Log
 import androidx.core.app.NotificationCompat
+import com.goodwork.app.MainActivity
 import com.goodwork.app.R
 import com.goodwork.app.database.DatabaseHelper
 import java.util.*
