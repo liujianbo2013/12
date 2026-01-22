@@ -216,7 +216,12 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
     }
 
     fun getBooleanSetting(key: String, defaultValue: Boolean = false): Boolean {
-        return getSetting(key)?.toBooleanOrNull() ?: defaultValue
+        val value = getSetting(key)
+        return when (value?.lowercase()) {
+            "true", "1", "yes" -> true
+            "false", "0", "no" -> false
+            else -> defaultValue
+        }
     }
 
     fun setBooleanSetting(key: String, value: Boolean) {
