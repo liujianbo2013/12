@@ -88,7 +88,7 @@
 
 ## 许可证
 
-[查看许可证](https://github.com/liujianbo2013/12/blob/main/LICENSE)
+[查看许可证](ICENSE)
 
 ## 联系方式
 
