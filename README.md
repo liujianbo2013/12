@@ -88,7 +88,7 @@
 
 ## 许可证
 
-本项目仅供学习和个人使用。
+[查看许可证](https://github.com/liujianbo2013/12/blob/main/LICENSE)
 
 ## 联系方式
 
